@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  background-image: url(../src/assets/Gradient.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 25px 80px;
+}
+
+nav > .logo{
+  justify-self: flex-start;
+  margin-right: auto;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 34.5px;
+  color: #310E0E;
+}
+
+nav > .nav--options{
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 34.5px;
+  color: #310E0E;
+}
+
+nav > .nav--options > p{
+  margin-right: 30px;
+}
+
+.nav--button{
+  margin-left: auto;
+  color: #140000;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 34.5px;
+  border: 2px solid #828282;
+  background-color: inherit;
+  border-radius: 100px;
+  padding: 1px 15px;
+}
+
+.heading{
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 82.5px;
+  color: #00203F;
+  width: 1058px;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.cards{
+  width: 70%;
+  padding: 120px;
+  margin: auto;
+  display: grid;
+  row-gap: 32px;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
+.card{
+  width: 346px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding:10px 30px 30px;
+}
+
+.card-images{
+  width: 190px;
+}
+
+.card-title{
+  margin-top: 15px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.89px;
+
+}
+
+.card-text{
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: center;
+}
+
+.card--button{
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.73px;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 9px 9px 16.8px 0px #233E6054;
+
+}
